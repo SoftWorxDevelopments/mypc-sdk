@@ -1,0 +1,24 @@
+vendor/
+.idea/
+.DS_Store
+*.iml
+coverage.html
+
+*.out
+
+# ignore mypcd & cetcli executables
+mypcd
+cetcli
+mypcdev
+!mypcd/
+!cetcli/
+!mypcdev/
+testhome/
+
+build/
+cmd/cetcli/statik/statik.go
+/cmd/cetcli/swagger/bower_components/
+tools-stamp
+*.swp
+*.un~
+*.go~
